@@ -1,0 +1,54 @@
+1. Project Plan
+Goal
+
+The goal of this project is to demonstrate foundational proficiency in (QMD) for reproducible data analysis and reporting. The project integrates data wrangling, visualization, and statistical reasoning through three distinct exercises:
+
+Armed Forces Data Wrangling — restructuring and visualizing rank and gender data.
+
+Popularity of Baby Names — analyzing historical naming trends with ggplot2.
+
+Box Maximization Problem — applying mathematical optimization and visualization.
+
+Needs
+
+R and RStudio installed with the tidyverse, ggplot2, and dcData packages.
+
+Quarto configured for PDF rendering (LaTeX engine enabled).
+
+Dataset access (e.g., BabyNames from dcData package).
+
+Proper documentation, including code comments and captions for accessibility (alt text in plots).
+
+Steps
+
+Set up Environment:
+
+Install required R packages (tidyverse, ggplot2, dcData).
+
+Verify Quarto is configured correctly (quarto check).
+
+Develop QMD Document:
+
+Create a Quarto file (Activity14AmalParekh.qmd) with YAML header and section headers.
+
+Write code chunks for each analysis, ensuring proper annotations and reproducibility.
+
+Perform Analyses:
+
+Conduct data wrangling on Armed Forces dataset (reshape, tabulate, visualize).
+
+Create a multi-line visualization of baby name trends using ggplot2.
+
+Model and plot the Box Maximization problem with custom function and stat_function().
+
+Render Output:
+
+Generate the PDF output (Activity14AmalParekh.pdf).
+
+Check for consistent formatting and accessibility features.
+
+Test and Verify:
+
+Run the full document to ensure all code executes without error.
+
+Validate visuals and tables for interpretability.
